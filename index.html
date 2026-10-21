@@ -114,6 +114,12 @@ ol.qs b{font-weight:600;color:var(--blue)}
 .shot{display:block;color:inherit;text-decoration:none}
 .shot img{display:block;width:100%;height:auto;border-radius:14px;box-shadow:0 1px 0 rgba(0,0,0,.2)}
 .shot .label{display:block;margin-top:12px;color:rgba(255,251,248,.75)}
+.uses.why{grid-template-columns:repeat(4,1fr)}
+.cream .use{background:var(--beige)}
+.dark .use{background:rgba(255,251,248,.06);color:var(--cream)}
+.dark .use .label{color:rgba(255,251,248,.65)}
+@media (max-width:1000px){.uses.why{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:820px){.uses.why{grid-template-columns:1fr}}
 @media (max-width:820px){.shots{grid-template-columns:1fr}}
 @media (max-width:820px){.three,.options{grid-template-columns:1fr}table.vers td:first-child,table.vers td:last-child{width:auto}table.vers thead{display:none}table.vers td{display:block;padding:6px 0;border:0}table.vers tr{display:block;padding:14px 0;border-bottom:1px solid rgba(5,44,55,.15)}}
 @media (max-width:820px){
@@ -157,9 +163,23 @@ ol.qs b{font-weight:600;color:var(--blue)}
   </div>
 </section>
 
+<section class="dark">
+  <div class="wrap">
+    <div class="sectionhead"><span class="label">01 · Why</span><div>
+      <h2>A leaner team, one center, lower cost, faster work.</h2>
+    </div></div>
+    <div class="uses why">
+      <div class="use"><span class="label">Fewer hires</span><p>The brand work grows with every community, center and campaign. The system carries the repetitive part, so the team grows by judgment, not by headcount.</p></div>
+      <div class="use"><span class="label">One center</span><p>Five businesses, regional offices, agencies and partners work from one source, held in one place by the central marketing team.</p></div>
+      <div class="use"><span class="label">Lower cost</span><p>Less agency and freelance time on first drafts and fixes, less rework when something goes out in the wrong words.</p></div>
+      <div class="use"><span class="label">Fast turnaround</span><p>A first draft in the Lewis voice in minutes, checked against the brand before it reaches review.</p></div>
+    </div>
+  </div>
+</section>
+
 <section>
   <div class="wrap">
-    <div class="sectionhead"><span class="label">01 · Where it runs</span><div>
+    <div class="sectionhead"><span class="label">02 · Where it runs</span><div>
       <h2>On Lewis’s own servers. Private by design.</h2>
     </div></div>
     <div class="body">
@@ -177,7 +197,7 @@ ol.qs b{font-weight:600;color:var(--blue)}
 
 <section class="dark">
   <div class="wrap">
-    <div class="sectionhead"><span class="label">02 · The test</span><div>
+    <div class="sectionhead"><span class="label">03 · The test</span><div>
       <h2>The new lewisapartments.com. Good design, checked before launch.</h2>
     </div></div>
     <div class="shots">
@@ -223,10 +243,10 @@ ol.qs b{font-weight:600;color:var(--blue)}
 
 <section class="soft">
   <div class="wrap">
-    <div class="sectionhead"><span class="label">03 · Where Lewis speaks</span><div>
+    <div class="sectionhead"><span class="label">04 · Where Lewis speaks</span><div>
       <h2>Every week, in hundreds of places.</h2>
     </div></div>
-    <div class="body"><p>Websites, listings, brochures, press, job posts, social, newsletters, signage, partner materials. Each one is a chance to sound like Lewis. These are the places where the system and AI tools do the most work.</p></div>
+    <div class="body"><p>Websites, listings, brochures, signage, press, job posts, social, newsletters, partner materials. Each one is a chance to sound like Lewis. These are the places where the system and AI tools do the most work.</p></div>
     <div class="figs">
       <div class="fig"><div class="n">37</div><span class="label">Apartment communities</span></div>
       <div class="fig"><div class="n">200+</div><span class="label">Listings on rental sites</span></div>
@@ -241,6 +261,7 @@ ol.qs b{font-weight:600;color:var(--blue)}
       <div class="use"><span class="label">Launches</span><p>A launch set for each groundbreaking or opening: press release, sponsored post, signage and social, in one voice.</p></div>
       <div class="use"><span class="label">HR and recruiting</span><p>Job posts drafted from a role brief with the approved employer language, ready for every job site.</p></div>
       <div class="use"><span class="label">Residents</span><p>Replies to resident reviews in the Lewis voice, supporting the reputation the communities have earned.</p></div>
+      <div class="use"><span class="label">Signage</span><p>Leasing, coming-soon and wayfinding signs for communities and centers, with the right name, lockup and color for each business.</p></div>
       <div class="use"><span class="label">Social</span><p>A steady flow of posts for each account, drawn from the same facts and stories.</p></div>
       <div class="use"><span class="label">Homebuilders and partners</span><p>Co-marketing, signage and event materials for Planned Communities and its builder partners.</p></div>
       <div class="use"><span class="label">Cities and agencies</span><p>Planning and community outreach materials that carry the same voice and facts.</p></div>
@@ -250,7 +271,7 @@ ol.qs b{font-weight:600;color:var(--blue)}
 
 <section>
   <div class="wrap">
-    <div class="sectionhead"><span class="label">04 · The team and the system</span><div>
+    <div class="sectionhead"><span class="label">05 · The team and the system</span><div>
       <h2>One brand lead. Five businesses. Every agency.</h2>
     </div></div>
     <div class="body">
@@ -271,9 +292,26 @@ ol.qs b{font-weight:600;color:var(--blue)}
   </div>
 </section>
 
+<section class="cream">
+  <div class="wrap">
+    <div class="sectionhead"><span class="label">06 · Beyond the brand</span><div>
+      <h2>The same model runs the rest of the business.</h2>
+    </div></div>
+    <div class="body"><p>The method is not limited to marketing. Any team that writes the same kinds of documents again and again, under rules that matter, works the same way: one source with the rules and their reasons, drafts in minutes, a check before anything goes out. On the same private workspace.</p></div>
+    <div class="uses">
+      <div class="use"><span class="label">Billing</span><p>Invoices, statements and billing letters drafted from the account details, in the approved wording, with the right legal entity on every page.</p></div>
+      <div class="use"><span class="label">Contracts</span><p>Leases, vendor and partner agreements started from the current templates and clauses, with every change from the standard flagged for legal.</p></div>
+      <div class="use"><span class="label">Across offices</span><p>Upland, Sacramento, Las Vegas and Sparks working from the same procedures, forms and answers, kept current in one place.</p></div>
+      <div class="use"><span class="label">People</span><p>Onboarding, policies and internal updates written once and answered consistently, for every business and office.</p></div>
+      <div class="use"><span class="label">Property operations</span><p>Resident notices, maintenance updates and community rules in one voice, at every property.</p></div>
+      <div class="use"><span class="label">Reporting</span><p>Investor and management reports assembled from current, dated figures, in the same structure every time.</p></div>
+    </div>
+  </div>
+</section>
+
 <section class="soft">
   <div class="wrap">
-    <div class="sectionhead"><span class="label">05 · What the system is</span><div>
+    <div class="sectionhead"><span class="label">07 · What the system is</span><div>
       <h2>Every rule carries Lewis’s own reason.</h2>
     </div></div>
     <div class="body"><div class="card rule">
@@ -292,50 +330,6 @@ ol.qs b{font-weight:600;color:var(--blue)}
   </div>
 </section>
 
-<section>
-  <div class="wrap">
-    <div class="sectionhead"><span class="label">06 · Same method, other brands</span><div>
-      <h2>One method, four scales.</h2>
-    </div></div>
-    <div class="body"><p>The same approach runs for a single person, a young consumer brand and a design studio’s clients. Each one sharpened the version built for Lewis.</p></div>
-    <div class="uses">
-      <div class="use"><span class="label">A personal brand</span><p>A system that also remembers and learns: it gathers sources every day, keeps long-term notes and checks itself for drift. The direction for Lewis over time.</p></div>
-      <div class="use"><span class="label">A consumer food brand</span><p>An early-stage brand with strict rules on health and product claims, and clear labels for what is decided and what is still open.</p></div>
-      <div class="use"><span class="label">The reference</span><p>Little Plains’ agentic brand systems for its clients: brand guidance people browse and agents read, with the visual system as working code.</p></div>
-      <div class="use"><span class="label">Lewis</span><p>An enterprise brand across five businesses, built on Lewis’s own decisions, tested against live material and run on Lewis’s own servers.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="cream">
-  <div class="wrap">
-    <div class="sectionhead"><span class="label">07 · Decisions</span><div>
-      <h2>Seven choices for consistency. Six to make together.</h2>
-    </div></div>
-    <div class="body">
-      <p class="muted">Small choices that keep every document consistent. Each one is confirmed in the first working session, then holds for every document after.</p>
-      <ol class="qs">
-        <li><b>Integrity</b> as the fifth value, with Authenticity, Responsibility, Collaboration and Passion.</li>
-        <li><b>One ranking:</b> “one of the nation’s largest privately held community developers”, in that wording only.</li>
-        <li><b>No serial comma.</b> AP style, which the voice guide names as its reference, so Lewis reads the way the press prints it.</li>
-        <li><b>“Guest Builder”</b> allowed as the trade term for the buyer in land offerings.</li>
-        <li><b>The business color leads</b> on a business’s own material. Lewis Blue on group material.</li>
-        <li><b>Phase 1, Phase 2, Phase 2A.</b> Figures, AP style.</li>
-        <li><b>Business order</b> as on the website: Apartments, Retail Centers, Planned Communities, Office &amp; Industrial, Land Acquisition.</li>
-      </ol>
-      <h3 style="margin:56px 0 8px">To decide together</h3>
-      <ol class="qs">
-        <li>The name in use: Lewis Apartments or Lewis Apartment Communities.</li>
-        <li>One approved sentence for each business.</li>
-        <li>One tagline for the group. The same line for every business, or none.</li>
-        <li>The presentation template every team starts from.</li>
-        <li>The role of the Lewis Commercial logo.</li>
-        <li>“Together We Build Better.” from the guidelines: a line for use?</li>
-      </ol>
-    </div>
-  </div>
-</section>
-
 <section class="dark">
   <div class="wrap">
     <div class="sectionhead"><span class="label">08 · Two ways to start</span><div>
@@ -345,7 +339,7 @@ ol.qs b{font-weight:600;color:var(--blue)}
       <div class="option">
         <span class="label">Option A</span>
         <h3>The presentation and document system</h3>
-        <p class="price-line"><span class="n">$6,000</span><span class="label">One month</span></p>
+        <p class="label" style="margin:-6px 0 18px">One month</p>
         <ul>
           <li>Audit of the presentations and high-frequency documents in use</li>
           <li>A PowerPoint and InDesign master, landscape and portrait, with a structured slide hierarchy</li>
@@ -357,7 +351,7 @@ ol.qs b{font-weight:600;color:var(--blue)}
       <div class="option">
         <span class="label">Option B</span>
         <h3>The brand system across Lewis</h3>
-        <p class="price-line"><span class="n">$5,000 to $10,000</span><span class="label">A month, for three to four months</span></p>
+        <p class="label" style="margin:-6px 0 18px">Three to four months</p>
         <ul>
           <li>Weeks 1 to 2: confirm the system with the brand team, settle the open questions, map the brand architecture</li>
           <li>Weeks 3 to 6: the presentation master built on the system, with corporate, investor and property overview templates</li>
@@ -369,7 +363,7 @@ ol.qs b{font-weight:600;color:var(--blue)}
         </ul>
       </div>
     </div>
-    <p class="muted" style="margin-top:32px">Option A can be the first month of Option B.</p>
+    <p class="muted" style="margin-top:32px">Option A can be the first month of Option B. Pricing follows once the scope is agreed.</p>
   </div>
 </section>
 
